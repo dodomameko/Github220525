@@ -44,8 +44,7 @@ table {
 @import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
 body{
   font-family: 'Noto Sans TC';
-  font-display: fallback;
-  line-height: 1.5;
+  line-height: 1.5 ;
 }
 a{
     text-decoration: none;
@@ -58,6 +57,7 @@ img{
 }
 .wrap{
     max-width: 100%;
+    margin: auto;
 }
 .container{
     width: 80%;
@@ -67,9 +67,15 @@ img{
 .footer{
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     border: 1px solid black;
     margin-top: 24px;
+    margin-bottom: 24px;
+}
+.logo{
+    width: 218.06px;
+    height: 40 px;
+    border: 1px solid black;
 }
 .price{
     background-color: #FF5D50;
@@ -77,21 +83,56 @@ img{
     height: 40px;
     color: white;
     font-size: 16px;
-    text-align: center;
     border-radius: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
 }
 .top{
     width: 100%;
     display: flex;
     justify-content: center;
     border: 1px solid black;
+    margin-top: 30px;
 }
-.item{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+.top-item{
+    width: 50%;
     border: 1px solid black;
 }
+.text{
+    margin-top: 158px;
+    margin-bottom: 157px;
+}
+.middle{
+    width: 70%;
+    margin-top: 217px;
+}
+.middle-item{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    margin-left: -63px;
+    margin-right: -63px;
+}
+.item{
+    width: 25%;
+    display: flex;
+    justify-content: column;
+    padding-left: 63px;
+    padding-right: 63px;
+
+}
+.title1{
+    font-size: 24px;
+    /*要粗體*/
+}
+.contain1{
+    color: #747474;
+    font-size: 16px;
+}
+
 .item-contaniner{
     box-sizing: border-box;
     width: 23%;
