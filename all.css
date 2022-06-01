@@ -191,17 +191,16 @@ img{
 .list-item{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     border: 1px solid black;
     padding-top: 48px;
     padding-bottom: 48px;
     padding-right: 32px;
     padding-left: 32px;
-    margin: 10px;
+    margin: 12px;
 }
 .item2{
     border: 1px solid black;
+    margin-left: 5px ;
 }
 .title3{
     width: 166px;
@@ -220,18 +219,16 @@ img{
 .list-item2{
     width: 35%;
     border: 1px solid black;
-    display: flex;
-    flex-direction: column;
 }
 .title4{
     font-size: 32px;
     font-weight: bold;
     margin-top: 160px;
-    margin-bottom: 16px;
 }
-contain4{
+.contain4{
     font-size: 18px;
     color: #221E1F;
+    margin-top: 16px;
     margin-bottom: 16px;
 }
 .price2{
@@ -252,4 +249,55 @@ contain4{
     border: 1px solid black;
     margin: auto;
     padding-top: 100px;
+}
+.recommend{
+    display: flex;
+    justify-content: center;
+    padding-top: 48px;
+    border: 1px solid black;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.recommend-item{
+    border: 1px solid black;
+    margin-right: 8px;
+    margin-left: 8px;
+    padding: 10px;
+}
+.recommend-p1{
+    font-size: 16px;
+    color: #221E1F;
+    margin-bottom: 48px;
+}
+.wrap2{
+    max-width: 1366px;
+    margin-top: 100px;
+    padding-top: 260px;
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/home_footer.svg);
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    background-position: -50px 0px;
+}
+.footer_title{
+    font-size: 32px;
+    font-weight: bold;
+    color: #221E1F;
+    text-align: center;
+    margin: 40px;
+}
+.price3{
+    background-color: #56C4C5;
+    width: 128px;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+    border-radius: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
 }
