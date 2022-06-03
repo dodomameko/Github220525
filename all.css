@@ -66,7 +66,6 @@ img{
 .inner-wrap{
     width: 80%;
     margin: auto;
-    border: 1px solid black;
 }
 @media (max-width:768px){
     .inner-wrap{
@@ -77,20 +76,17 @@ img{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    border: 1px solid black;
     margin-top: 24px;
     margin-bottom: 24px;
 }
 .logo-item1{
     width: 20%;
-    border: 1px solid black;
     display: flex;
     justify-content: left;
     align-items: center;
 }
 .logo-item2{
     width: 20%;
-    border: 1px solid black;
     display: flex;
     justify-content: right;
     align-items: center;
@@ -100,7 +96,7 @@ img{
     width: 60%;
     height: 40px;
     color: white;
-    font-size: 13%;
+    font-size: 1.3vw;
     border-radius: 22px;
     display: flex;
     justify-content: center;
@@ -122,12 +118,10 @@ img{
     width: 100%;
     display: flex;
     justify-content: center;
-    border: 1px solid black;
     margin-top: 30px;
 }
 .page-block{
     width: 50%;
-    border: 1px solid black;
 }
 .page-block_text{
     margin-top: 158px;
@@ -177,7 +171,6 @@ img{
     width: 90%;
     padding-top: 217px;
     margin: auto;
-    border: 1px solid black;
 }
 .block-social-title{
     font-size: 3vw; 
@@ -186,7 +179,6 @@ img{
 .block-social_list{
     display: flex;
     justify-content: space-around;
-    border: 1px solid black;
     margin-top: 48px;
     margin-left: -2%;
     margin-right: -2%;
@@ -196,27 +188,23 @@ img{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
     padding-right: 2%;
     padding-left: 2%;
    
 }
 .block-social_list-item1{
     width: 30%;
-    border: 1px solid black;
 }
 .block-social_list-item2{
     padding-top: 24px;
     font-size: 2vw;
     font-weight: bold;
-    border: 1px solid black;
 }
 .block-social_list-item3{
     padding-top: 20px;
     color: #747474;
     font-size: 1.5vw; 
     text-align: center;
-    border: 1px solid black;
 }
 @media (max-width:768px){
     .block-social{
@@ -253,7 +241,6 @@ img{
     width: 100%;
     margin: auto;
     margin-top: 100px;
-    border: 1px solid black;
 }
 .block-service-title{
     font-size: 3vw;
@@ -270,7 +257,6 @@ img{
     margin-top: 48px;
     margin-left: -2.5%;
     margin-right: -2.5%;
-    border: 1px solid black;
 }
 .block-service_list-item{
     padding: 2.5%;
@@ -286,7 +272,6 @@ img{
     padding-top: 8px;
     color: #56C4C5;
     font-size: 1.5vw;
-    border: 1px solid black;
     text-align: center;
 }
 .block-service_list-item3{
@@ -294,7 +279,6 @@ img{
     color: #747474;
     font-size: 1.5vw; 
     text-align: center;
-    border: 1px solid black;
 }
 @media (max-width:768px){
     .block-service{
@@ -339,19 +323,16 @@ img{
     padding-top: 100px;
     display: flex;
     justify-content: center;
-    border: 1px solid black;
 }
 .block-work_list{
     width: 50%;
     display: flex;
-    border: 1px solid black;
     flex-wrap: wrap;
 }
 .block-work_list-item{
     width: 40%;
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
     padding-top: 48px;
     padding-bottom: 48px;
     margin-right: 5%;
@@ -359,24 +340,20 @@ img{
 }
 .block-work_list-item1{
     width: 40%;
-    border: 1px solid black;
     margin-left: 5%;
 }
 .block-work_list-item2{
     font-size: 1.5vw;
-    border: 1px solid black;
     margin-top: 16px;
     font-weight: bold;
 }
 .block-work_list-item3{
     width: 90%;
     font-size: 1.2vw;
-    border: 1px solid black;
     margin-top: 16px;
 }
 .block-work_text{
     width: 50%;
-    border: 1px solid black;
 }
 .block-work_text-item1{
     font-size: 4.5vw;
@@ -399,7 +376,6 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
     margin-top: 16px;
     margin-bottom: 160px;
 }
@@ -467,7 +443,6 @@ img{
 
 .block-recommend{
     width: 100%;
-    border: 1px solid black;
     margin: auto;
     padding-top: 100px;
 }
@@ -479,11 +454,9 @@ img{
     width: 100%;
     display: flex;
     padding-top: 48px;
-    border: 1px solid black;
 }
 .block-recommend_list-item{
     width: 40%;
-    border: 1px solid black;
     margin-right: 1%;
     margin-left: 1%;
     padding: 1%;
@@ -577,15 +550,12 @@ img{
     background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/home_footer.svg);
     background-repeat: no-repeat;
     background-position: top;
-    border: 1px solid black;
-  
 }
 .wrap-bottom_item1{
     width: 80%;
     font-size: 3vw;
     font-weight: bold;
     color: #221E1F;
-    border: 1px solid black;
     text-align: center;
     margin: auto;
 }
@@ -599,7 +569,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
+
     margin-top: 50px;
     margin-bottom: 100px;
     margin-left: auto;
