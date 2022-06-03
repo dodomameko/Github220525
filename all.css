@@ -268,22 +268,24 @@ img{
     display: flex;
     justify-content: space-between;
     margin-top: 48px;
-    margin-left: -16px;
-    margin-right: -16px;
+    margin-left: -2.5%;
+    margin-right: -2.5%;
+    border: 1px solid black;
 }
 .block-service_list-item{
-    padding: 16px;
-    width: 23%;
+    padding: 2.5%;
+    width: 24%;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .block-service_list-item1{
-    width: 90%;
+    width: 100%;
 }
 .block-service_list-item2{
     padding-top: 8px;
     color: #56C4C5;
-    font-size: 24px;
+    font-size: 1.5vw;
     border: 1px solid black;
     text-align: center;
 }
@@ -294,9 +296,44 @@ img{
     text-align: center;
     border: 1px solid black;
 }
-
-
-.bottom2{
+@media (max-width:768px){
+    .block-service{
+        width: 90%;
+        margin-top: 60px;
+    }
+    .block-service-title{
+        font-size: 5vw;
+    }
+    .block-service-subtitle{
+        font-size: 2.5vw;
+    }
+    .block-service_list{
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: auto;
+        padding-top: 32px;
+    }
+    .block-service_list-item{
+        margin-top: 24px;
+        width: 100%;
+    }
+    .block-service_list-item1{
+        width: 100%;
+        text-align: center;
+    }
+    .block-service_list-item2{
+        padding-top: 16px;
+        font-size: 3vw;
+    }
+    .block-service_list-item3{
+        width: 60%;
+        padding-top: 16px;
+        font-size: 3vw; 
+    }
+}
+.block-work{
     width: 80%;
     margin: auto;
     padding-top: 100px;
@@ -305,14 +342,14 @@ img{
     border: 1px solid black;
 }
 
-.list{
+.lock-work_list{
     width: 65%;
     display: flex;
     border: 1px solid black;
     flex-wrap: wrap;
     padding: 5px;
 }
-.list-item{
+.block-work_list-item{
     display: flex;
     flex-direction: column;
     border: 1px solid black;
@@ -322,40 +359,40 @@ img{
     padding-left: 32px;
     margin: 12px;
 }
-.item2{
+.block-work_list-item1{
     border: 1px solid black;
     margin-left: 5px ;
 }
-.title3{
+.block-work_list-item2{
     width: 166px;
     font-size: 16px;
     border: 1px solid black;
     margin-top: 16px;
     font-weight: bold;
 }
-.contain3{
+.block-work_list-item3{
     width: 166px;
     height: 48px;
     font-size: 12px;
     border: 1px solid black;
     margin-top: 16px;
 }
-.list-item2{
+.block-work_text{
     width: 35%;
     border: 1px solid black;
 }
-.title4{
+.block-work_text-item1{
     font-size: 32px;
     font-weight: bold;
     margin-top: 160px;
 }
-.contain4{
+.block-work_text-item2{
     font-size: 18px;
     color: #221E1F;
     margin-top: 16px;
     margin-bottom: 16px;
 }
-.price2{
+.block-work_text-item3{
     background-color: #56C4C5;
     width: 128px;
     height: 40px;
@@ -368,6 +405,9 @@ img{
     border: 1px solid black;
     margin-top: 16px;
 }
+
+
+
 .bottom3{
     width: 80%;
     border: 1px solid black;
