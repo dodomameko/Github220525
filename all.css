@@ -41,6 +41,9 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+*,*::before,*::after{
+    box-sizing: border-box;
+}
 @import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
 body{
   font-family: "Noto Sans TC";
@@ -56,16 +59,21 @@ img{
     max-width: 100%;
     margin: auto;
 }
-.wrap{
+.outter-wrap{
     max-width: 1366px;
     margin: auto;
 }
-.container{
+.inner-wrap{
     width: 80%;
     margin: auto;
     border: 1px solid black;
 }
-.footer{
+@media (max-width:768px){
+    .inner-wrap{
+        width: 90%;
+    }
+}
+.logo{
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -73,105 +81,221 @@ img{
     margin-top: 24px;
     margin-bottom: 24px;
 }
-.logo{
-    width: 218.06px;
-    height: 40 px;
+.logo-item1{
+    width: 20%;
     border: 1px solid black;
+    display: flex;
+    justify-content: left;
+    align-items: center;
 }
-.price{
+.logo-item2{
+    width: 20%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.logo-buttom{
     background-color: #FF5D50;
-    width: 128px;
+    width: 60%;
     height: 40px;
     color: white;
-    font-size: 16px;
+    font-size: 13%;
     border-radius: 22px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
 }
-.top{
+@media (max-width:768px){
+    .logo-item1{
+        width: 38%;
+    }
+    .logo-item2{
+        width: 38%;
+    }
+    .logo-buttom{
+        width: 80%;
+        font-size: 20%;
+    }
+}
+.page{
     width: 100%;
     display: flex;
     justify-content: center;
     border: 1px solid black;
     margin-top: 30px;
 }
-.top-item{
+.page-block{
     width: 50%;
     border: 1px solid black;
 }
-.text{
+.page-block_text{
     margin-top: 158px;
     margin-bottom: 157px;
 }
-.middle{
+.page-block_text_item1{
+    font-size: 1vw;
+    color: #56C4C5;
+}
+.page-block_text_item2{
+    font-size: 4vw;
+}
+.page-block_text_item3{
+    font-size: 2vw;
+}
+.page-block_picture{
+    width: 100%;
+}
+@media (max-width:768px){
+    .page{
+        display: flex;
+        flex-direction: column;
+    }
+    .page-block{
+        width: 100%;
+    }
+    .page-block_text{
+        margin:auto
+    }
+    .page-block_text_item1{
+        font-size: 3vw;
+        margin-top: 32px;
+    }
+    .page-block_text_item2{
+        font-size: 7vw;
+        margin-top: 8px;
+    }
+    .page-block_text_item3{
+        font-size: 4vw;
+        margin-top: 16px;
+    }
+    .page-block_picture{
+        padding: 10px;
+    }
+}
+.block-social{
     width: 90%;
     padding-top: 217px;
     margin: auto;
     border: 1px solid black;
 }
-.middle-item{
+.block-social-title{
+    font-size: 3vw; 
+    text-align: center;
+}
+.block-social_list{
     display: flex;
     justify-content: space-around;
     border: 1px solid black;
     margin-top: 48px;
-    margin-left: -20px;
-    margin-right: -20px;
+    margin-left: -2%;
+    margin-right: -2%;
 }
-.item{
+.block-social_list-item{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border: 1px solid black;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 2%;
+    padding-left: 2%;
    
 }
-.item1{
+.block-social_list-item1{
     width: 30%;
     border: 1px solid black;
 }
-.title1{
+.block-social_list-item2{
     padding-top: 24px;
-    font-size: 24px;
+    font-size: 2vw;
     font-weight: bold;
     border: 1px solid black;
 }
-.contain1{
+.block-social_list-item3{
     padding-top: 20px;
     color: #747474;
-    font-size: 16px; 
+    font-size: 1.5vw; 
     text-align: center;
     border: 1px solid black;
 }
-.bottom{
+@media (max-width:768px){
+    .block-social{
+        width: 80%;
+        padding-top: 60px;
+    }
+    .block-social-title{
+        font-size: 5vw; 
+        text-align: center;
+    }
+    .block-social_list{
+        align-items: center;
+        flex-direction: column;
+        margin:auto;
+        margin-top: 32px;
+    }
+    .block-social_list-item{
+        width: 60%;
+        margin-bottom: 24px;
+    }
+    .block-social_list-item1{
+        width: 25%;
+    }
+    .block-social_list-item2{
+        padding-top: 16px;
+        font-size: 3vw;
+    }
+    .block-social_list-item3{
+        padding-top: 16px;
+        font-size: 2.5vw; 
+    }
+}
+.block-service{
     width: 100%;
     margin: auto;
     margin-top: 100px;
+    border: 1px solid black;
 }
-.bottom-item{
+.block-service-title{
+    font-size: 3vw;
+    text-align: center;
+}
+.block-service-subtitle{
+    font-size: 1.5vw;
+    margin-top: 16px;
+    text-align: center;
+}
+.block-service_list{
     display: flex;
     justify-content: space-between;
     margin-top: 48px;
     margin-left: -16px;
     margin-right: -16px;
 }
-.item-contaniner{
-    box-sizing: border-box;
+.block-service_list-item{
     padding: 16px;
     width: 23%;
     display: flex;
     flex-direction: column;
 }
-.title2{
+.block-service_list-item1{
+    width: 90%;
+}
+.block-service_list-item2{
     padding-top: 8px;
     color: #56C4C5;
     font-size: 24px;
     border: 1px solid black;
     text-align: center;
 }
+.block-service_list-item3{
+    padding-top: 20px;
+    color: #747474;
+    font-size: 1.5vw; 
+    text-align: center;
+    border: 1px solid black;
+}
+
+
 .bottom2{
     width: 80%;
     margin: auto;
